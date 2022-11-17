@@ -4,13 +4,6 @@
 }
 
 
-header {
-
-    padding-top: 20px;
-    display: flex;
-    align-items: center;
-}
-
 
 body {
 
@@ -58,6 +51,10 @@ h2 {
     opacity: 0.9;
 }
 
+.row  {
+    display: flex;
+    justify-content: space-around;
+}
 
 
     /* botao */
@@ -92,11 +89,6 @@ float: left;
 
 }
 
-header{
-
-    display: flex !important;
-    align-items: center !important;
-}
 
 .bord_space {
      opacity: 0.4;
@@ -132,31 +124,24 @@ color: rgb(26, 26, 37)
 }
 
 
-header#nonenone {
-
-    display: none !important;
-}
 
 
 
 /* MEDIAS */
 
-@media (max-width: 767px) {
+
+@media (max-width: 799px) {
 
     section#sobre a {
 
         margin-bottom: 12px;
     
     }
-
-
-header {
-    position: relative ;
-    z-index: 5;
-    opacity: 0.6;
+    .row  {
+        display: flex;
+        justify-content: flex-start;
+    }
     
-}
-
 
 #buttonhome {
 
@@ -166,6 +151,7 @@ div .card {
 
     margin-bottom: 4px;
 }
+
 
 
 }
@@ -182,7 +168,10 @@ div .card {
 
 
     }
-
+    .row  {
+        display: flex;
+        justify-content: flex-start;
+    }
 
 }
 
